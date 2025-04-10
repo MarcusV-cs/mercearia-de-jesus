@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercearia de Jesus</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    header, footer { background-color: #00529B; color: white; padding: 20px; text-align: center; }
+    nav { background-color: #00529B; display: flex; justify-content: center; gap: 30px; padding: 10px 0; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    .section { padding: 40px 20px; text-align: center; }
+    .produtos { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+    .produto { border: 1px solid #ddd; border-radius: 10px; padding: 10px; width: 200px; }
+    .produto img { width: 100%; border-radius: 5px; }
+    .logo { max-width: 150px; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png/HTML" alt="Logo Mercearia de Jesus" class="logo">
+    <h1>Mercearia de Jesus</h1>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#ofertas">Ofertas</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="inicio" class="section">
+    <h2>Bem-vindo à Mercearia de Jesus</h2>
+    <p>Qualidade, carinho e economia em um só lugar!</p>
+  </section>
+
+  <section id="ofertas" class="section">
+    <h2>Ofertas da Semana</h2>
+    <div class="produtos">
+      <div class="produto">
+        <img src="arroz.png" alt="Arroz Biju">
+        <h4>Arroz Biju 5kg</h4>
+        <p>R$ 28,60</p>
+      </div>
+      <div class="produto">
+        <img src="feijão.jpg" alt="Feijão Carioca">
+        <h4>Feijão Carioca</h4>
+        <p>R$ 7,00</p>
+      </div>
+      <div class="produto">
+        <img src="sardinha.jpg" alt="Sardinha Marca 88">
+        <h4>Sardinha Marca 88</h4>
+        <p>R$ 5,70</p>
+      </div>
+      <div class="produto">
+        <img src="óleo.jpg" alt="Óleo concordia">
+        <h4>Óleo concordia</h4>
+        <p>R$ 10,20</p>
+      </div>
+      <div class="produto">
+        <img src="açúcar.jpg"alt="Molho de tomate">
+        <h4>Açúcar Blanco</h4>
+        <p>R$ 4,70</p>
+      </div>
+      <div class="produto">
+        <img src="manteiga.jpg"alt="Manteiga Puro Sabor">
+        <h4>Manteiga Puro Sabor</h4>
+        <p>R$ 3,30</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="section">
+    <h2>Sobre</h2>
+    <p>A Mercearia de Jesus nasceu do sonho de oferecer produtos acessíveis e de qualidade com um atendimento humano e acolhedor. Aqui, você é parte da família!</p>
+  </section>
+
+  <section id="contato" class="section">
+    <h2>Contato</h2>
+    <p>Email: bianasantos1510@gmail.com</p>
+    
+    <p>Endereço: Residecial jacinta andrade,Rua Manoel Eduardo da Silva- Teresina, PI</p>
+  </section>
+
+  <footer>
+    &copy; <script>document.write(new Date().getFullYear());</script> Mercearia de Jesus
+  </footer>
+</body>
+</html>
